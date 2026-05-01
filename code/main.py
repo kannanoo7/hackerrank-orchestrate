@@ -4,14 +4,29 @@ from corpus import SupportCorpus
 from triage_agent import TriageAgent
 from tqdm import tqdm
 
+import argparse
+
 def main():
     print("Initializing Support Triage Agent...")
     
-    # Paths
+    # Base paths
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    default_input_dir = os.path.join(base_dir, "support_tickets")
+    default_output_dir = os.path.join(base_dir, "support_tickets")
+    
+    # Parse arguments
+    parser = argparse.ArgumentParser(description="Support Triage Agent")
+    parser.add_argument("input_dir", type=str, nargs='?', default=default_input_dir, help="Directory containing support_tickets.csv")
+    parser.add_argument("output_dir", type=str, nargs='?', default=default_output_dir, help="Directory to save output.csv")
+    args = parser.parse_args()
+    
     data_dir = os.path.join(base_dir, "data")
-    input_file = os.path.join(base_dir, "support_tickets", "support_tickets.csv")
-    output_file = os.path.join(base_dir, "support_tickets", "output.csv")
+    input_file = os.path.join(args.input_dir, "support_tickets.csv")
+    output_file = os.path.join(args.output_dir, "output.csv")
+    
+    # Create output dir if missing
+    if not os.path.exists(args.output_dir):
+        os.makedirs(args.output_dir)
     
     # Initialize Corpus
     print("Loading support corpus...")

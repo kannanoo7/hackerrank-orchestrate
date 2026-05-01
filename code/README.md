@@ -15,19 +15,20 @@ This agent triages and resolves support tickets for HackerRank, Claude, and Visa
    GOOGLE_API_KEY=your_api_key_here
    ```
 
-## Usage
-
 Run the agent from the root directory:
 
 ```bash
-python code/main.py
+python code/main.py [input_dir] [output_dir]
 ```
+
+- **`input_dir`**: (Optional) Directory containing `support_tickets.csv`. Defaults to `support_tickets/`.
+- **`output_dir`**: (Optional) Directory to save `output.csv`. Defaults to `support_tickets/`.
 
 The agent will:
 1. Load the support corpus from `data/`.
-2. Read tickets from `support_tickets/support_tickets.csv`.
+2. Read tickets from the input directory.
 3. Process each ticket (classify, retrieve, respond).
-4. Save the results to `support_tickets/output.csv`.
+4. Save the results to the output directory.
 
 ## Architecture
 
