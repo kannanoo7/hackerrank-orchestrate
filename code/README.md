@@ -1,45 +1,36 @@
-# Support Triage Agent (Python)
+# Support Triage Agent
 
-This folder contains a deterministic, terminal-based support triage agent for the HackerRank Orchestrate challenge.
+This agent triages and resolves support tickets for HackerRank, Claude, and Visa using a local markdown corpus and the Gemini API.
 
-## What it does
+## Setup
 
-- Reads tickets from `support_tickets/support_tickets.csv`
-- Uses only the local markdown corpus in `data/`
-- Classifies `request_type`
-- Decides `status` (`replied` vs `escalated`) with explicit escalation rules
-- Retrieves top support docs via a lightweight BM25-style scorer
-- Writes predictions to `support_tickets/output.csv`
+1. **Install Dependencies**:
+   ```bash
+   pip install google-generativeai pandas rank_bm25 python-dotenv tqdm
+   ```
 
-## Environment setup (Windows PowerShell)
+2. **Configure API Key**:
+   Create a `.env` file in the root directory (or inside `code/`) and add your Google API key:
+   ```env
+   GOOGLE_API_KEY=your_api_key_here
+   ```
 
-From repo root:
+## Usage
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
+Run the agent from the root directory:
+
+```bash
+python code/main.py
 ```
 
-No external dependencies are required.
+The agent will:
+1. Load the support corpus from `data/`.
+2. Read tickets from `support_tickets/support_tickets.csv`.
+3. Process each ticket (classify, retrieve, respond).
+4. Save the results to `support_tickets/output.csv`.
 
-## Run
+## Architecture
 
-From repo root:
-
-```powershell
-python code/main.py --input support_tickets/support_tickets.csv --output support_tickets/output.csv
-```
-
-Optional:
-
-```powershell
-python code/main.py --top-k 5
-```
-
-## Notes on determinism and safety
-
-- Deterministic rule-based routing and classification.
-- Retrieval uses only local files in `data/`.
-- High-risk or sensitive requests are escalated rather than guessed.
-- No API keys or external network calls are used.
+- **`corpus.py`**: Handles loading and indexing the markdown support documents using BM25 for keyword-based retrieval.
+- **`triage_agent.py`**: Contains the core logic. It uses Gemini to classify the ticket, determine the triage status (replied/escalated), and generate grounded responses based on retrieved context.
+- **`main.py`**: The entry point that orchestrates the data flow.

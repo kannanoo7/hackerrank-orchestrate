@@ -1,53 +1,71 @@
-from __future__ import annotations
+import os
+import pandas as pd
+from corpus import SupportCorpus
+from triage_agent import TriageAgent
+from tqdm import tqdm
 
-import argparse
-from pathlib import Path
-
-from triage_agent import SupportTriageAgent, run_batch
-
-
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Terminal support-triage agent for HackerRank Orchestrate."
-    )
-    parser.add_argument(
-        "--input",
-        type=Path,
-        default=Path("support_tickets/support_tickets.csv"),
-        help="Path to input CSV containing Issue, Subject, Company.",
-    )
-    parser.add_argument(
-        "--output",
-        type=Path,
-        default=Path("support_tickets/output.csv"),
-        help="Path to write predictions CSV.",
-    )
-    parser.add_argument(
-        "--data-dir",
-        type=Path,
-        default=Path("data"),
-        help="Directory that contains local support corpus markdown files.",
-    )
-    parser.add_argument(
-        "--top-k",
-        type=int,
-        default=3,
-        help="Number of evidence snippets to use in responses.",
-    )
-    return parser.parse_args()
-
-
-def main() -> None:
-    args = parse_args()
-    agent = SupportTriageAgent(data_dir=args.data_dir)
-    run_batch(
-        agent=agent,
-        input_csv=args.input,
-        output_csv=args.output,
-        top_k=args.top_k,
-    )
-    print(f"Wrote triage output to: {args.output}")
-
+def main():
+    print("Initializing Support Triage Agent...")
+    
+    # Paths
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_dir = os.path.join(base_dir, "data")
+    input_file = os.path.join(base_dir, "support_tickets", "support_tickets.csv")
+    output_file = os.path.join(base_dir, "support_tickets", "output.csv")
+    
+    # Initialize Corpus
+    print("Loading support corpus...")
+    corpus = SupportCorpus(data_dir)
+    
+    # Initialize Agent
+    print("Configuring AI agent...")
+    agent = TriageAgent(corpus)
+    
+    # Read Tickets
+    print(f"Reading input from {input_file}...")
+    df = pd.read_csv(input_file)
+    
+    results = []
+    
+    print("Processing tickets...")
+    for index, row in tqdm(df.iterrows(), total=len(df)):
+        issue = str(row.get("Issue", ""))
+        subject = str(row.get("Subject", ""))
+        company = str(row.get("Company", ""))
+        
+        import time
+        try:
+            result = agent.process_ticket(issue, subject, company)
+            # Ensure all required columns are present
+            results.append({
+                "Issue": issue,
+                "Subject": subject,
+                "Company": company,
+                "status": result.get("status"),
+                "product_area": result.get("product_area"),
+                "response": result.get("response"),
+                "justification": result.get("justification"),
+                "request_type": result.get("request_type")
+            })
+            time.sleep(1.5)  # Avoid hitting rate limits
+        except Exception as e:
+            print(f"Error processing row {index}: {e}")
+            results.append({
+                "Issue": issue,
+                "Subject": subject,
+                "Company": company,
+                "status": "escalated",
+                "product_area": "unknown",
+                "response": "Internal processing error.",
+                "justification": str(e),
+                "request_type": "product_issue"
+            })
+            
+    # Save Results
+    print(f"Saving output to {output_file}...")
+    output_df = pd.DataFrame(results)
+    output_df.to_csv(output_file, index=False)
+    print("Done!")
 
 if __name__ == "__main__":
     main()

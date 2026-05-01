@@ -1,178 +1,126 @@
-from __future__ import annotations
-
-import csv
+import os
+import google.generativeai as genai
+from dotenv import load_dotenv
+import json
 import re
-from dataclasses import dataclass
-from pathlib import Path
 
-from corpus import CorpusIndex, tokenize
+load_dotenv()
 
-ALLOWED_STATUS = {"replied", "escalated"}
-ALLOWED_REQUEST_TYPES = {"product_issue", "feature_request", "bug", "invalid"}
+class TriageAgent:
+    def __init__(self, corpus, model_name="gemma-3-27b-it"):
+        api_key = os.getenv("GOOGLE_API_KEY")
+        if not api_key:
+            raise ValueError("GOOGLE_API_KEY not found in environment")
+        
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel(model_name)
+        self.corpus = corpus
 
+    def process_ticket(self, issue, subject, company):
+        # Step 1: Classification & Reasoning
+        prompt = f"""
+You are an expert support triage agent for HackerRank, Claude, and Visa.
+Analyze the following support ticket and decide how to handle it.
 
-def compact(text: str) -> str:
-    return re.sub(r"\s+", " ", text or "").strip()
+Ticket Details:
+Issue: {issue}
+Subject: {subject}
+Company: {company}
 
+Allowed values:
+- status: "replied", "escalated"
+- request_type: "product_issue", "feature_request", "bug", "invalid"
 
-def lower(text: str) -> str:
-    return compact(text).lower()
+Guidelines:
+- Escalate if the issue involves high-risk, sensitive topics (fraud, billing disputes, account recovery for others, security vulnerabilities, etc.) or if it's a complex bug.
+- Replied if it can be answered using general support documentation or if it's out of scope.
+- If out of scope, status should be "replied" and the response should state it is out of scope.
+- Product area should be a concise category (e.g., "account_management", "billing", "technical_issue", "general_support", "travel_support", "privacy", etc.).
 
+Provide your analysis in JSON format with the following keys:
+- status
+- product_area
+- request_type
+- justification (short explanation of why you chose this status/type)
+- search_query (a good search query to find relevant documentation if status is "replied")
+"""
+        import time
+        max_retries = 5
+        retry_delay = 1
 
-@dataclass(frozen=True)
-class TriageResult:
-    status: str
-    product_area: str
-    response: str
-    justification: str
-    request_type: str
-
-
-class SupportTriageAgent:
-    def __init__(self, data_dir: Path) -> None:
-        self.index = CorpusIndex(data_dir=data_dir)
-
-    def classify_request_type(self, text: str) -> str:
-        t = lower(text)
-        if any(k in t for k in ["feature request", "can you add", "please add", "would like to request"]):
-            return "feature_request"
-        if any(k in t for k in ["bug", "down", "not working", "failing", "error", "stopped", "issue", "blocked"]):
-            return "bug"
-        if any(k in t for k in ["thank you", "who is the actor", "out of scope", "delete all files", "code to delete"]):
-            return "invalid"
-        return "product_issue"
-
-    def should_escalate(self, text: str, company: str, request_type: str) -> tuple[bool, str]:
-        t = lower(text)
-        escalation_rules = [
-            ("major security vulnerability", "Security vulnerability reports require human security triage."),
-            ("identity has been stolen", "Identity theft reports are sensitive and require specialist handling."),
-            ("restore my access immediately", "Access-restoration requests without admin authority require account admin review."),
-            ("increase my score", "Assessment score disputes are not handled by support agents directly."),
-            ("ban the seller", "Enforcement actions against merchants require issuer/network investigation."),
-            ("it’s not working, help", "Insufficient details; needs human follow-up."),
-            ("it's not working, help", "Insufficient details; needs human follow-up."),
-        ]
-        for phrase, reason in escalation_rules:
-            if phrase in t:
-                return True, reason
-        if request_type == "invalid" and any(k in t for k in ["delete all files", "malware", "hack"]):
-            return True, "Potentially harmful request outside support scope."
-        if company == "None" and request_type == "bug" and "site is down" in t:
-            return True, "Platform outage reports should be escalated immediately."
-        return False, ""
-
-    def _response_from_docs(self, docs: list, company: str, fallback_reason: str | None = None) -> tuple[str, str]:
-        if not docs:
-            return (
-                "I could not find enough grounded support guidance in the provided corpus. Please route this to a human support specialist.",
-                fallback_reason or "No matching support documentation found in local corpus.",
-            )
-
-        top = docs[0]
-        snippets: list[str] = []
-        for doc in docs:
-            text = compact(doc.content)
-            # Keep the response concise and grounded to documentation.
-            for sentence in re.split(r"(?<=[.!?])\s+", text):
-                s = compact(sentence)
-                if 40 <= len(s) <= 220 and "http" not in s and "![mceclip" not in s:
-                    snippets.append(s)
-                if len(snippets) >= 3:
-                    break
-            if len(snippets) >= 3:
+        for attempt in range(max_retries):
+            try:
+                response = self.model.generate_content(prompt)
+                text = response.text
+                # Try to find JSON block
+                json_match = re.search(r'\{.*\}', text, re.DOTALL)
+                if json_match:
+                    analysis = json.loads(json_match.group())
+                else:
+                    # Fallback or retry
+                    raise ValueError("No JSON found in response")
                 break
-
-        if not snippets:
-            snippets = [f"Please follow the official guidance in: {top.title}."]
-
-        prefix = "Based on the provided support documentation: "
-        response = prefix + " ".join(snippets[:3])
-        justification = (
-            f"Routed using local corpus match in `{top.path}`"
-            + (f" plus related docs ({len(docs)} retrieved)." if len(docs) > 1 else ".")
-        )
-        return response, justification
-
-    def _product_area(self, docs: list, company: str) -> str:
-        if docs:
-            return docs[0].product_area
-        if company == "HackerRank":
-            return "general_support"
-        if company == "Claude":
-            return "account_management"
-        if company == "Visa":
-            return "general_support"
-        return "general_support"
-
-    def triage(self, issue: str, subject: str, company: str, top_k: int = 3) -> TriageResult:
-        company = compact(company) or "None"
-        text = compact(f"{subject} {issue}")
-        request_type = self.classify_request_type(text)
-        escalate, escalation_reason = self.should_escalate(text, company, request_type)
-
-        docs = self.index.search(query=text, company_hint=company, top_k=top_k)
-        product_area = self._product_area(docs, company)
-
-        if any(k in lower(text) for k in ["who is the actor in iron man", "thank you for helping me"]):
-            return TriageResult(
-                status="replied",
-                product_area=product_area,
-                response="I am sorry, this is out of scope from my capabilities.",
-                justification="Ticket is unrelated to supported domains or does not require support action.",
-                request_type="invalid",
-            )
-
-        if escalate:
-            response = (
-                "I’m escalating this to a human support specialist to ensure safe and accurate handling. "
-                "Please share any additional details (timestamps, screenshots, account/workspace identifiers) to speed up resolution."
-            )
-            justification = escalation_reason
-            status = "escalated"
-        else:
-            response, doc_justification = self._response_from_docs(docs, company)
-            justification = doc_justification
-            status = "replied"
-
-        if status not in ALLOWED_STATUS:
-            status = "escalated"
-        if request_type not in ALLOWED_REQUEST_TYPES:
-            request_type = "product_issue"
-
-        return TriageResult(
-            status=status,
-            product_area=product_area,
-            response=response,
-            justification=justification,
-            request_type=request_type,
-        )
-
-
-def run_batch(agent: SupportTriageAgent, input_csv: Path, output_csv: Path, top_k: int = 3) -> None:
-    rows: list[dict[str, str]] = []
-    with input_csv.open("r", encoding="utf-8", newline="") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            issue = row.get("Issue", "") or row.get("issue", "")
-            subject = row.get("Subject", "") or row.get("subject", "")
-            company = row.get("Company", "") or row.get("company", "")
-            result = agent.triage(issue=issue, subject=subject, company=company, top_k=top_k)
-            rows.append(
-                {
-                    "status": result.status,
-                    "product_area": result.product_area,
-                    "response": result.response,
-                    "justification": result.justification,
-                    "request_type": result.request_type,
+            except Exception as e:
+                if ("429" in str(e) or "quota" in str(e).lower()) and attempt < max_retries - 1:
+                    time.sleep(retry_delay * (2 ** attempt))
+                    continue
+                print(f"Error during classification: {e}")
+                return {
+                    "status": "escalated",
+                    "product_area": "unknown",
+                    "request_type": "product_issue",
+                    "response": "An error occurred during processing. Escalating to human agent.",
+                    "justification": f"Error: {str(e)}"
                 }
-            )
 
-    output_csv.parent.mkdir(parents=True, exist_ok=True)
-    with output_csv.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=["status", "product_area", "response", "justification", "request_type"],
-        )
-        writer.writeheader()
-        writer.writerows(rows)
+        if analysis["status"] == "escalated":
+            analysis["response"] = "Escalate to a human agent for further assistance."
+            return analysis
+
+        # Step 2: Retrieval
+        search_query = analysis.get("search_query", issue)
+        context_docs = self.corpus.search(search_query, top_n=3)
+        context_text = "\n\n".join([f"Source: {doc['source']}\n{doc['text']}" for doc in context_docs])
+
+        # Step 3: Grounded Response Generation
+        response_prompt = f"""
+You are a support agent. Use the provided context to answer the user's issue.
+If the issue is out of scope or not covered by the context, politely say so.
+
+Context:
+{context_text}
+
+Issue: {issue}
+Subject: {subject}
+Company: {company}
+
+Requirements:
+- Your response must be grounded ONLY in the provided context.
+- Do NOT hallucinate policies.
+- If you can't find the answer, state that you are unable to assist and recommend escalation if appropriate.
+- Be polite and professional.
+
+Final Output:
+Provide a user-facing response.
+"""
+        for attempt in range(max_retries):
+            try:
+                response = self.model.generate_content(response_prompt)
+                analysis["response"] = response.text.strip()
+                break
+            except Exception as e:
+                if "429" in str(e) and attempt < max_retries - 1:
+                    time.sleep(retry_delay * (2 ** attempt))
+                    continue
+                analysis["response"] = f"Error generating response: {str(e)}"
+                analysis["status"] = "escalated"
+
+        return analysis
+
+if __name__ == "__main__":
+    # Test
+    from corpus import SupportCorpus
+    corpus = SupportCorpus("data")
+    agent = TriageAgent(corpus)
+    result = agent.process_ticket("I lost my Visa card in Paris, help!", "Lost card", "Visa")
+    print(json.dumps(result, indent=2))
