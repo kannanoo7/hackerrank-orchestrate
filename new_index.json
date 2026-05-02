@@ -1,0 +1,2143 @@
+[
+  {
+    "section": "Amazon Bedrock",
+    "articles": [
+      {
+        "title": "How do I get access to Claude in Amazon Bedrock?",
+        "path": "amazon-bedrock/7996920-how-do-i-get-access-to-claude-in-amazon-bedrock.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I learn more about Amazon and Anthropic\u2019s strategic collaboration?",
+        "path": "amazon-bedrock/10280779-how-do-i-learn-more-about-amazon-and-anthropic-s-strategic-collaboration.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I use Claude in Amazon Bedrock. Who do I contact for customer support inquiries?",
+        "path": "amazon-bedrock/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What AWS Regions are Claude models available in Amazon Bedrock?",
+        "path": "amazon-bedrock/10280791-what-aws-regions-are-claude-models-available-in-amazon-bedrock.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What is Amazon Bedrock?",
+        "path": "amazon-bedrock/7996918-what-is-amazon-bedrock.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Where do I find Claude in Amazon Bedrock documentation?",
+        "path": "amazon-bedrock/10280783-where-do-i-find-claude-in-amazon-bedrock-documentation.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude",
+    "articles": [
+      {
+        "title": "Release notes",
+        "path": "claude/12138966-release-notes.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude / Account management",
+    "articles": [
+      {
+        "title": "Claude 4 Invite Contest",
+        "path": "claude/account-management/11408405-claude-4-invite-contest.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Configuring session security settings",
+        "path": "claude/account-management/13163631-configuring-session-security-settings.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I delete my Claude account?",
+        "path": "claude/account-management/9028421-how-can-i-delete-my-claude-account.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I export my Claude data?",
+        "path": "claude/account-management/9450526-how-can-i-export-my-claude-data.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I change the email address associated with my account?",
+        "path": "claude/account-management/8452276-how-do-i-change-the-email-address-associated-with-my-account.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I log out of all active sessions?",
+        "path": "claude/account-management/10310342-how-do-i-log-out-of-all-active-sessions.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to get support",
+        "path": "claude/account-management/9015913-how-to-get-support.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to get support for Claude for Government",
+        "path": "claude/account-management/13047024-how-to-get-support-for-claude-for-government.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I would like to input sensitive data into my chats with Claude. Who can view my conversations?",
+        "path": "claude/account-management/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Logging in to your Claude account",
+        "path": "claude/account-management/13189465-logging-in-to-your-claude-account.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Managing your active sessions",
+        "path": "claude/account-management/13124001-managing-your-active-sessions.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Notice regarding consumption tax (JCT) for Japanese customers",
+        "path": "claude/account-management/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Public Sector FAQs",
+        "path": "claude/account-management/13756069-public-sector-faqs.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Understanding your billing address and tax calculation",
+        "path": "claude/account-management/12997130-understanding-your-billing-address-and-tax-calculation.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Why is a coupon or promotion not available for my account?",
+        "path": "claude/account-management/11107691-why-is-a-coupon-or-promotion-not-available-for-my-account.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude / Conversation management",
+    "articles": [
+      {
+        "title": "How can I delete or rename a conversation?",
+        "path": "claude/conversation-management/8230524-how-can-i-delete-or-rename-a-conversation.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Sharing and Unsharing Chats",
+        "path": "claude/conversation-management/10593882-sharing-and-unsharing-chats.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude\u2019s chat search and memory to build on previous context",
+        "path": "claude/conversation-management/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using incognito chats",
+        "path": "claude/conversation-management/12260368-using-incognito-chats.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude / Features and capabilities",
+    "articles": [
+      {
+        "title": "Assign tasks from anywhere in Claude Cowork",
+        "path": "claude/features-and-capabilities/13947068-assign-tasks-from-anywhere-in-claude-cowork.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Available beta and research preview features",
+        "path": "claude/features-and-capabilities/14503520-available-beta-and-research-preview-features.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Browse skills, connectors, and plugins in one directory",
+        "path": "claude/features-and-capabilities/14328846-browse-skills-connectors-and-plugins-in-one-directory.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Can Claude produce images?",
+        "path": "claude/features-and-capabilities/9002504-can-claude-produce-images.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Design admin guide for Team and Enterprise plans",
+        "path": "claude/features-and-capabilities/14604406-claude-design-admin-guide-for-team-and-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Design subscription usage and pricing",
+        "path": "claude/features-and-capabilities/14667344-claude-design-subscription-usage-and-pricing.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Security",
+        "path": "claude/features-and-capabilities/14661296-claude-security.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Create and edit files with Claude",
+        "path": "claude/features-and-capabilities/12111783-create-and-edit-files-with-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Custom visuals in chat",
+        "path": "claude/features-and-capabilities/13979539-custom-visuals-in-chat.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Enabling and using web search",
+        "path": "claude/features-and-capabilities/10684626-enabling-and-using-web-search.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Get started with Claude Cowork",
+        "path": "claude/features-and-capabilities/13345190-get-started-with-claude-cowork.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Get started with Claude Design",
+        "path": "claude/features-and-capabilities/14604416-get-started-with-claude-design.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How does Claude handle mathematical equations and calculations?",
+        "path": "claude/features-and-capabilities/10366421-how-does-claude-handle-mathematical-equations-and-calculations.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to create custom Skills",
+        "path": "claude/features-and-capabilities/12512198-how-to-create-custom-skills.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Import and export your memory from Claude",
+        "path": "claude/features-and-capabilities/12123587-import-and-export-your-memory-from-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Install financial services plugins for Cowork",
+        "path": "claude/features-and-capabilities/13851150-install-financial-services-plugins-for-cowork.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Let Claude use your computer in Cowork",
+        "path": "claude/features-and-capabilities/14128542-let-claude-use-your-computer-in-cowork.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Organize your tasks with projects in Claude Cowork",
+        "path": "claude/features-and-capabilities/14116274-organize-your-tasks-with-projects-in-claude-cowork.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Publishing and sharing artifacts",
+        "path": "claude/features-and-capabilities/9547008-publishing-and-sharing-artifacts.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Retrieval augmented generation (RAG) for projects",
+        "path": "claude/features-and-capabilities/11473015-retrieval-augmented-generation-rag-for-projects.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Schedule recurring tasks in Claude Cowork",
+        "path": "claude/features-and-capabilities/13854387-schedule-recurring-tasks-in-claude-cowork.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set up your design system in Claude Design",
+        "path": "claude/features-and-capabilities/14604397-set-up-your-design-system-in-claude-design.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Uploading files to Claude",
+        "path": "claude/features-and-capabilities/8241126-uploading-files-to-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude Cowork safely",
+        "path": "claude/features-and-capabilities/13364135-use-claude-cowork-safely.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude for Excel",
+        "path": "claude/features-and-capabilities/12650343-use-claude-for-excel.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude for Excel, PowerPoint, and Word with third-party platforms",
+        "path": "claude/features-and-capabilities/13945233-use-claude-for-excel-powerpoint-and-word-with-third-party-platforms.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude for PowerPoint",
+        "path": "claude/features-and-capabilities/13521390-use-claude-for-powerpoint.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude for Word",
+        "path": "claude/features-and-capabilities/14465370-use-claude-for-word.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use dictation in Office agents",
+        "path": "claude/features-and-capabilities/14479591-use-dictation-in-office-agents.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use plugins in Claude Cowork",
+        "path": "claude/features-and-capabilities/13837440-use-plugins-in-claude-cowork.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Skills in Claude",
+        "path": "claude/features-and-capabilities/12512180-use-skills-in-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude in Microsoft Foundry",
+        "path": "claude/features-and-capabilities/12864745-using-claude-in-microsoft-foundry.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude in Xcode",
+        "path": "claude/features-and-capabilities/12293051-using-claude-in-xcode.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using extended thinking",
+        "path": "claude/features-and-capabilities/10574485-using-extended-thinking.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Research on Claude",
+        "path": "claude/features-and-capabilities/11088861-using-research-on-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Visual and interactive content",
+        "path": "claude/features-and-capabilities/13641943-visual-and-interactive-content.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What are artifacts and how do I use them?",
+        "path": "claude/features-and-capabilities/9487310-what-are-artifacts-and-how-do-i-use-them.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What are projects?",
+        "path": "claude/features-and-capabilities/9517075-what-are-projects.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What are Skills?",
+        "path": "claude/features-and-capabilities/12512176-what-are-skills.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "When should I use web search, extended thinking, and Research?",
+        "path": "claude/features-and-capabilities/11095361-when-should-i-use-web-search-extended-thinking-and-research.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Work across Excel, PowerPoint, and Word",
+        "path": "claude/features-and-capabilities/13892150-work-across-excel-powerpoint-and-word.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude / Get started with Claude",
+    "articles": [
+      {
+        "title": "Choosing a Claude plan",
+        "path": "claude/get-started-with-claude/11049762-choosing-a-claude-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Get started with Claude",
+        "path": "claude/get-started-with-claude/8114491-get-started-with-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to gift a Claude subscription",
+        "path": "claude/get-started-with-claude/12938627-how-to-gift-a-claude-subscription.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to redeem a Claude gift subscription",
+        "path": "claude/get-started-with-claude/12938695-how-to-redeem-a-claude-gift-subscription.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How up-to-date is Claude's training data?",
+        "path": "claude/get-started-with-claude/8114494-how-up-to-date-is-claude-s-training-data.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Verifying your phone number",
+        "path": "claude/get-started-with-claude/8287232-verifying-your-phone-number.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What are some things I can use Claude for?",
+        "path": "claude/get-started-with-claude/7996845-what-are-some-things-i-can-use-claude-for.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What interfaces can I use to access Claude?",
+        "path": "claude/get-started-with-claude/8114487-what-interfaces-can-i-use-to-access-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Where can I access Claude?",
+        "path": "claude/get-started-with-claude/8461763-where-can-i-access-claude.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude / Personalization and settings",
+    "articles": [
+      {
+        "title": "Configure and use styles",
+        "path": "claude/personalization-and-settings/10181068-configure-and-use-styles.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Customizing your appearance settings",
+        "path": "claude/personalization-and-settings/8887527-customizing-your-appearance-settings.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I change the model version that I\u2019m chatting with?",
+        "path": "claude/personalization-and-settings/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to use Claude in your preferred language",
+        "path": "claude/personalization-and-settings/10769299-how-to-use-claude-in-your-preferred-language.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Understanding Claude's Personalization Features",
+        "path": "claude/personalization-and-settings/10185728-understanding-claude-s-personalization-features.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude / Troubleshooting",
+    "articles": [
+      {
+        "title": "Adapting to new model personas after deprecations",
+        "path": "claude/troubleshooting/12738598-adapting-to-new-model-personas-after-deprecations.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude is producing links that don\u2019t work and falsely claiming that it has sent emails or produced external documents. What\u2019s going on?",
+        "path": "claude/troubleshooting/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude is providing incorrect or misleading responses. What\u2019s going on?",
+        "path": "claude/troubleshooting/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Troubleshoot Claude error messages",
+        "path": "claude/troubleshooting/12466728-troubleshoot-claude-error-messages.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude / Usage and limits",
+    "articles": [
+      {
+        "title": "Buy usage bundles",
+        "path": "claude/usage-and-limits/14246112-buy-usage-bundles.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude March 2026 usage promotion",
+        "path": "claude/usage-and-limits/14063676-claude-march-2026-usage-promotion.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do usage and length limits work?",
+        "path": "claude/usage-and-limits/11647753-how-do-usage-and-length-limits-work.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Usage limit best practices",
+        "path": "claude/usage-and-limits/9797557-usage-limit-best-practices.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude API and Console / API FAQ",
+    "articles": [
+      {
+        "title": "Can I have a Claude account and a Console account?",
+        "path": "claude-api-and-console/api-faq/8987223-can-i-have-a-claude-account-and-a-console-account.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Can I use the Claude API for individual use?",
+        "path": "claude-api-and-console/api-faq/8987200-can-i-use-the-claude-api-for-individual-use.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I delete my Claude Console account?",
+        "path": "claude-api-and-console/api-faq/10366376-how-can-i-delete-my-claude-console-account.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How large is the Claude API\u2019s context window?",
+        "path": "claude-api-and-console/api-faq/8606395-how-large-is-the-claude-api-s-context-window.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What is the External Researcher Access Program?",
+        "path": "claude-api-and-console/api-faq/9125743-what-is-the-external-researcher-access-program.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude API and Console / API Prompt Design",
+    "articles": [
+      {
+        "title": "Claude\u2019s response to my prompt is too brief.",
+        "path": "claude-api-and-console/api-prompt-design/8114518-claude-s-response-to-my-prompt-is-too-brief.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Introduction to prompt design",
+        "path": "claude-api-and-console/api-prompt-design/7996853-introduction-to-prompt-design.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "My prompt isn\u2019t giving me a helpful answer.",
+        "path": "claude-api-and-console/api-prompt-design/7996857-my-prompt-isn-t-giving-me-a-helpful-answer.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude API and Console / Claude API Usage and Best Practices",
+    "articles": [
+      {
+        "title": "API Key Best Practices: Keeping Your Keys Safe and Secure",
+        "path": "claude-api-and-console/claude-api-usage-and-best-practices/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I advance my Claude API usage to Tier 2?",
+        "path": "claude-api-and-console/claude-api-usage-and-best-practices/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I\u2019m planning to launch a product using the Claude API. What steps should I take to ensure I\u2019m not violating Anthropic\u2019s Usage Policy?",
+        "path": "claude-api-and-console/claude-api-usage-and-best-practices/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I\u2019ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?",
+        "path": "claude-api-and-console/claude-api-usage-and-best-practices/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Our approach to rate limits for the Claude API",
+        "path": "claude-api-and-console/claude-api-usage-and-best-practices/8243635-our-approach-to-rate-limits-for-the-claude-api.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What should I do if I suspect my API key has been compromised?",
+        "path": "claude-api-and-console/claude-api-usage-and-best-practices/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude API and Console / Pricing and Billing",
+    "articles": [
+      {
+        "title": "Add or update your Claude Console organization's tax or VAT ID",
+        "path": "claude-api-and-console/pricing-and-billing/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I learn more about Claude API pricing?",
+        "path": "claude-api-and-console/pricing-and-billing/8114523-how-can-i-learn-more-about-claude-api-pricing.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I pay for my Claude API usage?",
+        "path": "claude-api-and-console/pricing-and-billing/8977456-how-do-i-pay-for-my-claude-api-usage.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How will I be billed for Claude API use?",
+        "path": "claude-api-and-console/pricing-and-billing/8114526-how-will-i-be-billed-for-claude-api-use.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Where can I find full receipts and invoices for my Claude API and Console payments?",
+        "path": "claude-api-and-console/pricing-and-billing/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude API and Console / Troubleshooting",
+    "articles": [
+      {
+        "title": "How can I check connectivity to the Claude API?",
+        "path": "claude-api-and-console/troubleshooting/13403291-how-can-i-check-connectivity-to-the-claude-api.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I'm getting an API connection error. How can I fix it?",
+        "path": "claude-api-and-console/troubleshooting/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I\u2019m encountering 429 errors, and I\u2019m worried my rate limit is too low. What should I do?",
+        "path": "claude-api-and-console/troubleshooting/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Where can I find your API documentation?",
+        "path": "claude-api-and-console/troubleshooting/8114490-where-can-i-find-your-api-documentation.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Where can I go for Claude API support and assistance?",
+        "path": "claude-api-and-console/troubleshooting/8114535-where-can-i-go-for-claude-api-support-and-assistance.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude API and Console / Using the Claude API and Console",
+    "articles": [
+      {
+        "title": "About the Development Partner Program",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/11174108-about-the-development-partner-program.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Anthropic's AI for Science Program",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/11199177-anthropic-s-ai-for-science-program.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Console roles and permissions",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/10186004-claude-console-roles-and-permissions.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Cost and Usage Reporting in the Claude Console",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/9534590-cost-and-usage-reporting-in-the-claude-console.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Creating and managing Workspaces in the Claude Console",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/9796807-creating-and-managing-workspaces-in-the-claude-console.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Customizing your Console appearance settings",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/13346458-customizing-your-console-appearance-settings.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Google Sheets add-on",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/13162029-google-sheets-add-on.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I access the Claude API?",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/8114521-how-can-i-access-the-claude-api.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I use the Workbench?",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/8606378-how-do-i-use-the-workbench.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I created a Claude Console organization - how do I start using the Claude API?",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Inviting members to the Claude Console",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/13443764-inviting-members-to-the-claude-console.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Logging in to your Console account",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/13371040-logging-in-to-your-console-account.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage user feedback settings on Claude Console",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/10504853-manage-user-feedback-settings-on-claude-console.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Sharing Prompts in the Claude Console",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/10722177-sharing-prompts-in-the-claude-console.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Where is the Claude API supported?",
+        "path": "claude-api-and-console/using-the-claude-api-and-console/8116515-where-is-the-claude-api-supported.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude Code",
+    "articles": [
+      {
+        "title": "Automated Security Reviews in Claude Code",
+        "path": "claude-code/11932705-automated-security-reviews-in-claude-code.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code FAQ",
+        "path": "claude-code/12386420-claude-code-faq.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code model configuration",
+        "path": "claude-code/11940350-claude-code-model-configuration.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code on the web",
+        "path": "claude-code/12618689-claude-code-on-the-web.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code usage analytics",
+        "path": "claude-code/12157520-claude-code-usage-analytics.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Managing API key environment variables in Claude Code",
+        "path": "claude-code/12304248-managing-api-key-environment-variables-in-claude-code.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set up Code Review for Claude Code",
+        "path": "claude-code/14233555-set-up-code-review-for-claude-code.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude Code with your Team or Enterprise plan",
+        "path": "claude-code/11845131-use-claude-code-with-your-team-or-enterprise-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude Code with your Max plan",
+        "path": "claude-code/11145838-using-claude-code-with-your-max-plan.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude Code / Launch guides",
+    "articles": [
+      {
+        "title": "Claude Code champion kit",
+        "path": "claude-code/launch-guides/14555399-claude-code-champion-kit.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code cheatsheet",
+        "path": "claude-code/launch-guides/14553413-claude-code-cheatsheet.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code communications kit",
+        "path": "claude-code/launch-guides/14555877-claude-code-communications-kit.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code power user tips",
+        "path": "claude-code/launch-guides/14554000-claude-code-power-user-tips.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code user FAQ",
+        "path": "claude-code/launch-guides/14554922-claude-code-user-faq.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Code: Common developer use cases",
+        "path": "claude-code/launch-guides/14553517-claude-code-common-developer-use-cases.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Give Claude context: CLAUDE.md and better prompts",
+        "path": "claude-code/launch-guides/14553240-give-claude-context-claude-md-and-better-prompts.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Models, usage, and limits in Claude Code",
+        "path": "claude-code/launch-guides/14552983-models-usage-and-limits-in-claude-code.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Troubleshoot Claude Code installation and authentication",
+        "path": "claude-code/launch-guides/14552646-troubleshoot-claude-code-installation-and-authentication.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Your first day in Claude Code",
+        "path": "claude-code/launch-guides/14552382-your-first-day-in-claude-code.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude Desktop / Desktop extensions",
+    "articles": [
+      {
+        "title": "Deploying enterprise-grade MCP servers with desktop extensions",
+        "path": "claude-desktop/desktop-extensions/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Enabling and using the desktop extension allowlist",
+        "path": "claude-desktop/desktop-extensions/12592343-enabling-and-using-the-desktop-extension-allowlist.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Getting Started with Local MCP Servers on Claude Desktop",
+        "path": "claude-desktop/desktop-extensions/10949351-getting-started-with-local-mcp-servers-on-claude-desktop.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude Desktop / General",
+    "articles": [
+      {
+        "title": "Deploy Claude Desktop for macOS",
+        "path": "claude-desktop/general/12611117-deploy-claude-desktop-for-macos.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Deploy Claude Desktop for Windows",
+        "path": "claude-desktop/general/12622703-deploy-claude-desktop-for-windows.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Enterprise configuration",
+        "path": "claude-desktop/general/12622667-enterprise-configuration.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Install Claude Desktop",
+        "path": "claude-desktop/general/10065433-install-claude-desktop.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use quick entry with Claude Desktop on Mac",
+        "path": "claude-desktop/general/12626668-use-quick-entry-with-claude-desktop-on-mac.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude Mobile apps / Claude for Android",
+    "articles": [
+      {
+        "title": "How can I cancel my Claude Pro subscription on Claude for Android?",
+        "path": "claude-mobile-apps/claude-for-android/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I uninstall Claude for Android?",
+        "path": "claude-mobile-apps/claude-for-android/9612889-how-can-i-uninstall-claude-for-android.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I install Claude for Android?",
+        "path": "claude-mobile-apps/claude-for-android/9612887-how-do-i-install-claude-for-android.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I sign up for Claude Pro on Claude for Android?",
+        "path": "claude-mobile-apps/claude-for-android/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to update Claude for Android",
+        "path": "claude-mobile-apps/claude-for-android/11825394-how-to-update-claude-for-android.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude with Android Apps",
+        "path": "claude-mobile-apps/claude-for-android/11869629-using-claude-with-android-apps.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using the Claude Widget on Android",
+        "path": "claude-mobile-apps/claude-for-android/10534883-using-the-claude-widget-on-android.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What versions of Android are supported?",
+        "path": "claude-mobile-apps/claude-for-android/9612904-what-versions-of-android-are-supported.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Why can\u2019t I find Claude for Android in the Play Store?",
+        "path": "claude-mobile-apps/claude-for-android/9612901-why-can-t-i-find-claude-for-android-in-the-play-store.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude Mobile apps / Claude for iOS",
+    "articles": [
+      {
+        "title": "Accessing Claude app on iOS Lock Screen, Control Center, and Action Button",
+        "path": "claude-mobile-apps/claude-for-ios/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I cancel my Claude Pro subscription on the Claude app for iOS?",
+        "path": "claude-mobile-apps/claude-for-ios/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I sign up for Claude Pro on the Claude app for iOS?",
+        "path": "claude-mobile-apps/claude-for-ios/9266495-how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to update Claude for iOS",
+        "path": "claude-mobile-apps/claude-for-ios/11825384-how-to-update-claude-for-ios.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Installing Claude for iOS",
+        "path": "claude-mobile-apps/claude-for-ios/9266462-installing-claude-for-ios.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude App Intents, Shortcuts, and Widgets on iOS",
+        "path": "claude-mobile-apps/claude-for-ios/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude with iOS Apps",
+        "path": "claude-mobile-apps/claude-for-ios/11869619-using-claude-with-ios-apps.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude Mobile apps / General",
+    "articles": [
+      {
+        "title": "Minimum age requirement access restriction",
+        "path": "claude-mobile-apps/general/13117299-minimum-age-requirement-access-restriction.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using dictation on Claude Mobile",
+        "path": "claude-mobile-apps/general/10065434-using-dictation-on-claude-mobile.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using voice mode",
+        "path": "claude-mobile-apps/general/11101966-using-voice-mode.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude for Education",
+    "articles": [
+      {
+        "title": "FAQs on Using Claude for Education at Your University",
+        "path": "claude-for-education/11139144-faqs-on-using-claude-for-education-at-your-university.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Getting Started with Claude for Education at Your University (for Owners/Admins)",
+        "path": "claude-for-education/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set up the Claude LTI in Canvas by Instructure",
+        "path": "claude-for-education/11725453-set-up-the-claude-lti-in-canvas-by-instructure.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Who owns and manages the data of my Claude for Education account?",
+        "path": "claude-for-education/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude for Government",
+    "articles": [
+      {
+        "title": "Classification banner in Claude for Government",
+        "path": "claude-for-government/14503804-classification-banner-in-claude-for-government.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Get started with Claude for Government",
+        "path": "claude-for-government/14503590-get-started-with-claude-for-government.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "MCP connectors",
+        "path": "claude-for-government/14503689-mcp-connectors.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "MCP: Individual connectors",
+        "path": "claude-for-government/14503703-mcp-individual-connectors.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "MCP: Web Search",
+        "path": "claude-for-government/14503775-mcp-web-search.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Model availability in Claude for Government",
+        "path": "claude-for-government/14503794-model-availability-in-claude-for-government.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Organization preferences in Claude for Government",
+        "path": "claude-for-government/14503675-organization-preferences-in-claude-for-government.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set up SCIM in Claude for Government",
+        "path": "claude-for-government/14503643-set-up-scim-in-claude-for-government.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "SSO login",
+        "path": "claude-for-government/14503613-sso-login.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude for Nonprofits",
+    "articles": [
+      {
+        "title": "Claude for Nonprofits Partnership Guide for All Users",
+        "path": "claude-for-nonprofits/12923901-claude-for-nonprofits-partnership-guide-for-all-users.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude for Nonprofits Partnership Success Guide for Admins",
+        "path": "claude-for-nonprofits/12923668-claude-for-nonprofits-partnership-success-guide-for-admins.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Getting started with Claude for Nonprofits",
+        "path": "claude-for-nonprofits/12893767-getting-started-with-claude-for-nonprofits.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using the Benevity Connector in Claude",
+        "path": "claude-for-nonprofits/12923227-using-the-benevity-connector-in-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using the Blackbaud Connector in Claude",
+        "path": "claude-for-nonprofits/12923221-using-the-blackbaud-connector-in-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using the Candid Connector in Claude",
+        "path": "claude-for-nonprofits/12923235-using-the-candid-connector-in-claude.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Claude in Chrome",
+    "articles": [
+      {
+        "title": "Claude in Chrome admin controls",
+        "path": "claude-in-chrome/13065128-claude-in-chrome-admin-controls.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude in Chrome Permissions Guide",
+        "path": "claude-in-chrome/12902446-claude-in-chrome-permissions-guide.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude in Chrome Troubleshooting",
+        "path": "claude-in-chrome/12902405-claude-in-chrome-troubleshooting.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Get started with Claude in Chrome",
+        "path": "claude-in-chrome/12012173-get-started-with-claude-in-chrome.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude in Chrome Safely",
+        "path": "claude-in-chrome/12902428-using-claude-in-chrome-safely.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Connectors",
+    "articles": [
+      {
+        "title": "Build custom connectors via remote MCP servers",
+        "path": "connectors/11503834-build-custom-connectors-via-remote-mcp-servers.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Building Desktop Extensions with MCPB",
+        "path": "connectors/12922929-building-desktop-extensions-with-mcpb.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Local MCP Server Submission Guide",
+        "path": "connectors/12922832-local-mcp-server-submission-guide.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Remote MCP Server Submission Guide",
+        "path": "connectors/12922490-remote-mcp-server-submission-guide.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Connectors / Custom Connectors",
+    "articles": [
+      {
+        "title": "Get started with custom connectors using remote MCP",
+        "path": "connectors/custom-connectors/11175166-get-started-with-custom-connectors-using-remote-mcp.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Connectors / General",
+    "articles": [
+      {
+        "title": "Anthropic Connectors Directory FAQ",
+        "path": "connectors/general/11596036-anthropic-connectors-directory-faq.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Anthropic Software Directory Policy",
+        "path": "connectors/general/13145358-anthropic-software-directory-policy.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Anthropic Software Directory Terms",
+        "path": "connectors/general/13145338-anthropic-software-directory-terms.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage Claude\u2019s tool access",
+        "path": "connectors/general/13730515-manage-claude-s-tool-access.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use connectors to extend Claude's capabilities",
+        "path": "connectors/general/11176164-use-connectors-to-extend-claude-s-capabilities.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "When to use desktop and web connectors",
+        "path": "connectors/general/11725091-when-to-use-desktop-and-web-connectors.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Connectors / Pre-Built Connectors",
+    "articles": [
+      {
+        "title": "Enable and use the Microsoft 365 connector",
+        "path": "connectors/pre-built-connectors/12542951-enable-and-use-the-microsoft-365-connector.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Getting started with Claude in Slack",
+        "path": "connectors/pre-built-connectors/11506255-getting-started-with-claude-in-slack.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Microsoft 365 Connector: Security Guide",
+        "path": "connectors/pre-built-connectors/12684923-microsoft-365-connector-security-guide.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Google Workspace connectors",
+        "path": "connectors/pre-built-connectors/10166901-use-google-workspace-connectors.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use interactive connectors in Claude",
+        "path": "connectors/pre-built-connectors/13454812-use-interactive-connectors-in-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Claude in Slack",
+        "path": "connectors/pre-built-connectors/12461605-using-claude-in-slack.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using the GitHub Integration",
+        "path": "connectors/pre-built-connectors/10167454-using-the-github-integration.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Identity management (SSO, JIT, SCIM)",
+    "articles": [
+      {
+        "title": "How SCIM sync works for Enterprise organizations",
+        "path": "identity-management-sso-jit-scim/14499648-how-scim-sync-works-for-enterprise-organizations.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning",
+        "path": "identity-management-sso-jit-scim/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set up JIT or SCIM provisioning",
+        "path": "identity-management-sso-jit-scim/13133195-set-up-jit-or-scim-provisioning.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set up single sign-on (SSO)",
+        "path": "identity-management-sso-jit-scim/13132885-set-up-single-sign-on-sso.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Switching to a different Identity Provider (IdP)",
+        "path": "identity-management-sso-jit-scim/13443687-switching-to-a-different-identity-provider-idp.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Privacy and legal",
+    "articles": [
+      {
+        "title": "Business Associate Agreements (BAA) for Commercial Customers",
+        "path": "privacy-and-legal/8114513-business-associate-agreements-baa-for-commercial-customers.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Can I use my Outputs to train an AI model?",
+        "path": "privacy-and-legal/12326764-can-i-use-my-outputs-to-train-an-ai-model.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude 4 Invite Sweepstakes Official Rules",
+        "path": "privacy-and-legal/11140763-claude-4-invite-sweepstakes-official-rules.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Consumer Terms of Service Updates",
+        "path": "privacy-and-legal/9264813-consumer-terms-of-service-updates.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Designated Point of Contact for Users in the EU",
+        "path": "privacy-and-legal/11595103-designated-point-of-contact-for-users-in-the-eu.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Does Anthropic crawl data from the web, and how can site owners block the crawler?",
+        "path": "privacy-and-legal/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I view and sign your Data Processing Addendum (DPA)?",
+        "path": "privacy-and-legal/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "I think a user is infringing my copyright or other intellectual property. How do I report it?",
+        "path": "privacy-and-legal/10023646-i-think-a-user-is-infringing-my-copyright-or-other-intellectual-property-how-do-i-report-it.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Official Anthropic marketing email addresses",
+        "path": "privacy-and-legal/10416553-official-anthropic-marketing-email-addresses.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Online Safety Contacts",
+        "path": "privacy-and-legal/11174660-online-safety-contacts.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Report a Concern: Australian DIS Standard compliance",
+        "path": "privacy-and-legal/12335811-report-a-concern-australian-dis-standard-compliance.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Reporting, Blocking, and Removing Content from Claude",
+        "path": "privacy-and-legal/10684638-reporting-blocking-and-removing-content-from-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Terms of Service Updates",
+        "path": "privacy-and-legal/9190861-terms-of-service-updates.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Unauthorized Anthropic stock sales and investment scams",
+        "path": "privacy-and-legal/13704655-unauthorized-anthropic-stock-sales-and-investment-scams.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Updates to our Acceptable Use Policy (now \u201cUsage Policy\u201d), Consumer Terms of Service, and Privacy Policy",
+        "path": "privacy-and-legal/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What Certifications has Anthropic obtained?",
+        "path": "privacy-and-legal/10015870-what-certifications-has-anthropic-obtained.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What is Anthropic\u2019s policy for handling governmental requests for user information?",
+        "path": "privacy-and-legal/9519291-what-is-anthropic-s-policy-for-handling-governmental-requests-for-user-information.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Where can I learn more about Anthropic's Privacy practices?",
+        "path": "privacy-and-legal/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Why am I receiving an 'Output blocked by content filtering policy' error?",
+        "path": "privacy-and-legal/9205721-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Why am I receiving an 'Output blocked by content filtering policy' error?",
+        "path": "privacy-and-legal/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Pro and Max plans / General",
+    "articles": [
+      {
+        "title": "Add or update your paid Claude account\u2019s tax or VAT ID",
+        "path": "pro-and-max-plans/general/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Examples of projects you can create",
+        "path": "pro-and-max-plans/general/9529781-examples-of-projects-you-can-create.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Holiday 2025 Usage Promotion",
+        "path": "pro-and-max-plans/general/13163666-holiday-2025-usage-promotion.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I create and manage projects?",
+        "path": "pro-and-max-plans/general/9519177-how-can-i-create-and-manage-projects.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How do I cancel my paid Claude subscription?",
+        "path": "pro-and-max-plans/general/8325617-how-do-i-cancel-my-paid-claude-subscription.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How large is the context window on paid Claude plans?",
+        "path": "pro-and-max-plans/general/8606394-how-large-is-the-context-window-on-paid-claude-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage extra usage for paid Claude plans",
+        "path": "pro-and-max-plans/general/12429409-manage-extra-usage-for-paid-claude-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Paid Plan Billing FAQs",
+        "path": "pro-and-max-plans/general/8325618-paid-plan-billing-faqs.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Requesting a refund for a paid Claude plan",
+        "path": "pro-and-max-plans/general/12386328-requesting-a-refund-for-a-paid-claude-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Why am I being asked to verify my payment method?",
+        "path": "pro-and-max-plans/general/11818288-why-am-i-being-asked-to-verify-my-payment-method.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Why was my card declined?",
+        "path": "pro-and-max-plans/general/9402418-why-was-my-card-declined.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Pro and Max plans / Max plan",
+    "articles": [
+      {
+        "title": "How do I sign up for the Max plan?",
+        "path": "pro-and-max-plans/max-plan/11049752-how-do-i-sign-up-for-the-max-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What is the Max plan?",
+        "path": "pro-and-max-plans/max-plan/11049741-what-is-the-max-plan.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Pro and Max plans / Pro plan",
+    "articles": [
+      {
+        "title": "How do I sign up for the Pro plan?",
+        "path": "pro-and-max-plans/pro-plan/8325609-how-do-i-sign-up-for-the-pro-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How to change your Pro plan from monthly to annual billing",
+        "path": "pro-and-max-plans/pro-plan/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What is the Pro plan?",
+        "path": "pro-and-max-plans/pro-plan/8325606-what-is-the-pro-plan.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Safeguards",
+    "articles": [
+      {
+        "title": "API Safeguards Tools",
+        "path": "safeguards/9199617-api-safeguards-tools.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Creating a new account after deletion",
+        "path": "safeguards/12109679-creating-a-new-account-after-deletion.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Crisis Helpline Support in Claude",
+        "path": "safeguards/13171706-crisis-helpline-support-in-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "CSAM Detection and Reporting",
+        "path": "safeguards/9020328-csam-detection-and-reporting.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Exceptions to our Usage Policy",
+        "path": "safeguards/9528712-exceptions-to-our-usage-policy.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Identity verification on Claude",
+        "path": "safeguards/14328960-identity-verification-on-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Law Enforcement Requests",
+        "path": "safeguards/9035075-law-enforcement-requests.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Model Safety Bug Bounty Program",
+        "path": "safeguards/12119250-model-safety-bug-bounty-program.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Our Approach to User Safety",
+        "path": "safeguards/8106465-our-approach-to-user-safety.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Public Vulnerability Reporting",
+        "path": "safeguards/11427875-public-vulnerability-reporting.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Real-time cyber safeguards on Claude",
+        "path": "safeguards/14604842-real-time-cyber-safeguards-on-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Reporting, Blocking, and Removing Content from Claude",
+        "path": "safeguards/7996906-reporting-blocking-and-removing-content-from-claude.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors",
+        "path": "safeguards/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Safeguards warnings and appeals",
+        "path": "safeguards/8241253-safeguards-warnings-and-appeals.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Using Agents According to Our Usage Policy",
+        "path": "safeguards/12005017-using-agents-according-to-our-usage-policy.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Team and Enterprise plans / Admin management",
+    "articles": [
+      {
+        "title": "Account management FAQs",
+        "path": "team-and-enterprise-plans/admin-management/13325567-account-management-faqs.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Disable public projects for your organization",
+        "path": "team-and-enterprise-plans/admin-management/9927533-disable-public-projects-for-your-organization.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage Claude Cowork plugins for your organization",
+        "path": "team-and-enterprise-plans/admin-management/13837433-manage-claude-cowork-plugins-for-your-organization.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage custom roles on Enterprise plans",
+        "path": "team-and-enterprise-plans/admin-management/13930452-manage-custom-roles-on-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage extra usage for Team and seat-based Enterprise plans",
+        "path": "team-and-enterprise-plans/admin-management/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage groups and group spend limits on Enterprise plans",
+        "path": "team-and-enterprise-plans/admin-management/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage members on Team and Enterprise plans",
+        "path": "team-and-enterprise-plans/admin-management/13133750-manage-members-on-team-and-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Manage user feedback settings on Team and Enterprise plans",
+        "path": "team-and-enterprise-plans/admin-management/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Purchase and manage seats on Enterprise plans",
+        "path": "team-and-enterprise-plans/admin-management/13393991-purchase-and-manage-seats-on-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Purchase and manage seats on Team plans",
+        "path": "team-and-enterprise-plans/admin-management/12004354-purchase-and-manage-seats-on-team-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Roles and permissions",
+        "path": "team-and-enterprise-plans/admin-management/9267276-roles-and-permissions.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set organization preferences",
+        "path": "team-and-enterprise-plans/admin-management/14546867-set-organization-preferences.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Set up role-based permissions on Enterprise plans",
+        "path": "team-and-enterprise-plans/admin-management/13930458-set-up-role-based-permissions-on-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Team and Enterprise plans / Analytics and usage",
+    "articles": [
+      {
+        "title": "Claude Enterprise Analytics API reference guide",
+        "path": "team-and-enterprise-plans/analytics-and-usage/13703965-claude-enterprise-analytics-api-reference-guide.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Claude Enterprise Analytics API: Access engagement and adoption data",
+        "path": "team-and-enterprise-plans/analytics-and-usage/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Configure a custom OpenTelemetry collector for Office agents",
+        "path": "team-and-enterprise-plans/analytics-and-usage/14447276-configure-a-custom-opentelemetry-collector-for-office-agents.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Monitor Claude Cowork activity with OpenTelemetry",
+        "path": "team-and-enterprise-plans/analytics-and-usage/14477985-monitor-claude-cowork-activity-with-opentelemetry.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "View usage analytics for Team and Enterprise plans",
+        "path": "team-and-enterprise-plans/analytics-and-usage/12883420-view-usage-analytics-for-team-and-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Team and Enterprise plans / Billing",
+    "articles": [
+      {
+        "title": "Add or update your Team plan's tax or VAT ID",
+        "path": "team-and-enterprise-plans/billing/9927624-add-or-update-your-team-plan-s-tax-or-vat-id.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Cancel your organization's Team plan subscription",
+        "path": "team-and-enterprise-plans/billing/9267323-cancel-your-organization-s-team-plan-subscription.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Change your Team plan from monthly to annual billing",
+        "path": "team-and-enterprise-plans/billing/12083917-change-your-team-plan-from-monthly-to-annual-billing.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How am I billed for my Enterprise plan?",
+        "path": "team-and-enterprise-plans/billing/11526368-how-am-i-billed-for-my-enterprise-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How is my Team plan bill calculated?",
+        "path": "team-and-enterprise-plans/billing/9267289-how-is-my-team-plan-bill-calculated.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Team plan billing FAQs",
+        "path": "team-and-enterprise-plans/billing/12997503-team-plan-billing-faqs.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Team and Enterprise plans / Capabilities",
+    "articles": [
+      {
+        "title": "Manage project visibility and sharing",
+        "path": "team-and-enterprise-plans/capabilities/9519189-manage-project-visibility-and-sharing.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Provision and manage Skills for your organization",
+        "path": "team-and-enterprise-plans/capabilities/13119606-provision-and-manage-skills-for-your-organization.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use Claude Cowork on Team and Enterprise plans",
+        "path": "team-and-enterprise-plans/capabilities/13455879-use-claude-cowork-on-team-and-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use enterprise search",
+        "path": "team-and-enterprise-plans/capabilities/12489464-use-enterprise-search.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Use visual and interactive content on Team and Enterprise plans",
+        "path": "team-and-enterprise-plans/capabilities/13663666-use-visual-and-interactive-content-on-team-and-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Team and Enterprise plans / Get started",
+    "articles": [
+      {
+        "title": "Can individuals with Pro or Max plan accounts migrate them to Team or Enterprise plan organizations?",
+        "path": "team-and-enterprise-plans/get-started/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Find and join a Team or Enterprise organization",
+        "path": "team-and-enterprise-plans/get-started/13566435-find-and-join-a-team-or-enterprise-organization.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Get started with the Team plan",
+        "path": "team-and-enterprise-plans/get-started/9267247-get-started-with-the-team-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Join an organization via invite link",
+        "path": "team-and-enterprise-plans/get-started/13776697-join-an-organization-via-invite-link.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Migrate your organization from Team to Enterprise",
+        "path": "team-and-enterprise-plans/get-started/13779868-migrate-your-organization-from-team-to-enterprise.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Team and Enterprise plans / Plan overviews",
+    "articles": [
+      {
+        "title": "What is the Enterprise plan?",
+        "path": "team-and-enterprise-plans/plan-overviews/9797531-what-is-the-enterprise-plan.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What is the Team plan?",
+        "path": "team-and-enterprise-plans/plan-overviews/9266767-what-is-the-team-plan.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  },
+  {
+    "section": "Team and Enterprise plans / Security and compliance",
+    "articles": [
+      {
+        "title": "Access audit logs",
+        "path": "team-and-enterprise-plans/security-and-compliance/9970975-access-audit-logs.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Access the Compliance API",
+        "path": "team-and-enterprise-plans/security-and-compliance/13015708-access-the-compliance-api.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Can you delete data that I sent via Team and Enterprise plans?",
+        "path": "team-and-enterprise-plans/security-and-compliance/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Configure custom data retention controls for Enterprise plans",
+        "path": "team-and-enterprise-plans/security-and-compliance/10440198-configure-custom-data-retention-controls-for-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Does Anthropic Act as a Data Processor or Controller?",
+        "path": "team-and-enterprise-plans/security-and-compliance/9267385-does-anthropic-act-as-a-data-processor-or-controller.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Enforce network-level access control with Tenant Restrictions",
+        "path": "team-and-enterprise-plans/security-and-compliance/13198485-enforce-network-level-access-control-with-tenant-restrictions.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Export your organization's data",
+        "path": "team-and-enterprise-plans/security-and-compliance/13346720-export-your-organization-s-data.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "HIPAA-ready Enterprise plans",
+        "path": "team-and-enterprise-plans/security-and-compliance/13296973-hipaa-ready-enterprise-plans.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "How can I access the personal information that Anthropic has on my account?",
+        "path": "team-and-enterprise-plans/security-and-compliance/9267387-how-can-i-access-the-personal-information-that-anthropic-has-on-my-account.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Restrict access to Claude with IP allowlisting",
+        "path": "team-and-enterprise-plans/security-and-compliance/13200993-restrict-access-to-claude-with-ip-allowlisting.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "What happens to a user's data when they are removed from a Team or Enterprise organization?",
+        "path": "team-and-enterprise-plans/security-and-compliance/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization.md",
+        "url": null,
+        "type": "local"
+      },
+      {
+        "title": "Who owns and manages the data of my team?",
+        "path": "team-and-enterprise-plans/security-and-compliance/9265372-who-owns-and-manages-the-data-of-my-team.md",
+        "url": null,
+        "type": "local"
+      }
+    ]
+  }
+]

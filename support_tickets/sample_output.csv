@@ -1,0 +1,52 @@
+Issue,Subject,Company,status,product_area,response,justification,request_type
+I notice that people I assigned the test in October of 2025 have not received new tests. How long do the tests stay active in the system.,Test Active in the system,HackerRank,replied,tests_and_assessments,"Based on our documentation (general-help\release-notes\9502641162-q3%27-23-release-notes.md), here's what I found: ---
+title: ""Q3' 23 Release Notes Q3' 23 Release Notes""
+title_slug: ""q3-23-release-notes-q3-23-release-notes""
+source_url: ""https://support.hackerrank.com/articles/9502641162-q3%27-23-release-notes""
+article_slug: ""9502641162-q3%27-23-release-notes""
+last_updated_exact: ""Dec 13, 2024, 5:03 AM""
+last_upda... Please refer to our support center for complete details.",Heuristic response based on top matching document: general-help\release-notes\9502641162-q3%27-23-release-notes.md,product_issue
+site is down & none of the pages are accessible,nan,nan,escalated,general_support,I'm unable to find relevant documentation for your nan support request. Please escalate to a human agent for personalized assistance.,No relevant documentation found in the knowledge base.,product_issue
+"I'm noticing that you all have many default versions of roles. (e.g. front end developer for react, angular, vue.js, etc.) What do you consider best practice 
+for when to create a new test versus create a variant of the test? What are the advantages and disadvantages of using variants?","When should I create a variant versus
+ have a different test?",HackerRank,replied,tests_and_assessments,"Based on our documentation (library\additional-resources\project-questions\1053996435-validating-a-project-for-front-end%2C-back-end%2C-and-full-stack-questions.md), here's what I found: ---
+title: ""Validating a Project for Front End, Back End, and Full Stack Questions""
+title_slug: ""validating-a-project-for-front-end-back-end-and-full-stack-questions""
+source_url: ""https://support.hackerrank.com/articles/1053996435-validating-a-project-for-front-end%2C-back-end%2C-and-full-stack-ques... Please refer to our support center for complete details.",Heuristic response based on top matching document: library\additional-resources\project-questions\1053996435-validating-a-project-for-front-end%2C-back-end%2C-and-full-stack-questions.md,product_issue
+"Hi there
+
+We have sent a candidate a Hackerrank assessment already, but we have been informed that they require extra time. As the assessment is 105 minutes, they need an extra 50% extra time added (so around 53 minutes) in addition.
+
+Please can you provide step-by-step instruction on how we are to reinvite them.
+
+Do we find their profile in 'Candidates' , put in Add time 53 minutes and then click 'reinvite' and send the email? The email to the candidate says 105 minutes as the duration though s","How to reinvite candidate to Hackerrank 
+assessment and add extra time",HackerRank,replied,account_management,"Based on our documentation (general-help\evaluation-guides\1216495690-early-talent-.md), here's what I found: ---
+title: ""Early Talent""
+title_slug: ""early-talent""
+source_url: ""https://support.hackerrank.com/articles/1216495690-early-talent-""
+article_slug: ""1216495690-early-talent-""
+last_updated_exact: ""Oct 15, 2025, 10:15 PM""
+last_updated_relative: ""Last updated 6 months ago""
+breadcrumbs:
+  - ""General Help""... Please refer to our support center for complete details.",Heuristic response based on top matching document: general-help\evaluation-guides\1216495690-early-talent-.md,feature_request
+"i signed up using google login on hackerrank community , so i do not have a separate hackerrank password. please delete my account",nan,HackerRank,replied,account_management,"Based on our documentation (hackerrank_community\additional-resources\4147773232-troubleshooting-login-issues.md), here's what I found: ---
+title: ""Troubleshooting Login Issues Issue 1: Invalid credentials Issue 2: Wrong login page Issue 3: Password or cache""
+title_slug: ""troubleshooting-login-issues-issue-1-invalid-credentials-issue-2-wrong-login-page-issue-3-password-or-cache""
+source_url: ""https://help.hackerrank.com/articles/4147... Please refer to our support center for complete details.",Heuristic response based on top matching document: hackerrank_community\additional-resources\4147773232-troubleshooting-login-issues.md,product_issue
+"One of my claude conversations has some private info, i forgot to make a temporary chat, is there anything
+ else that can be done? like delete etc?",nan,Claude,replied,conversation_management,"Based on our documentation (claude\conversation-management\12260368-using-incognito-chats.md), here's what I found: ---
+title: ""Using incognito chats""
+title_slug: ""using-incognito-chats""
+source_url: ""https://support.claude.com/en/articles/12260368-using-incognito-chats""
+last_updated_iso: ""2026-04-09T17:26:28Z""
+article_id: ""13612163""
+breadcrumbs:
+  - ""Claude""
+  - ""Conversation management""
+---
+
+# Using incognito ch... Please refer to our support center for complete details.",Heuristic response based on top matching document: claude\conversation-management\12260368-using-incognito-chats.md,product_issue
+What is the name of the actor in Iron Man?,"Urgent, please help",None,escalated,troubleshooting,I'm unable to find relevant documentation for your unknown support request. Please escalate to a human agent for personalized assistance.,No relevant documentation found in the knowledge base.,product_issue
+I bought Visa Traveller's Cheques from Citicorp and they were stolen in Lisbon last night. What do I do?,nan,Visa,escalated,payment_services,This ticket requires human review (escalation reason: fraud). A specialized agent will handle this visa support request.,Escalated due to fraud concerns. High-risk issues require human judgment.,product_issue
+Where can I report a lost or stolen Visa card from India?,Card stolen,Visa,escalated,features_and_capabilities,This ticket requires human review (escalation reason: fraud). A specialized agent will handle this visa support request.,Escalated due to fraud concerns. High-risk issues require human judgment.,product_issue
+Thank you for helping me,nan,nan,escalated,troubleshooting,I'm unable to find relevant documentation for your nan support request. Please escalate to a human agent for personalized assistance.,No relevant documentation found in the knowledge base.,product_issue
